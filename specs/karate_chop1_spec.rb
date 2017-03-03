@@ -1,7 +1,7 @@
-require_relative "karate_chop1"
-require "test/unit"
+require_relative "../karate_chop1"
+require "minitest/autorun"
 
-class TestKarateChop1 < Test::Unit::TestCase
+class TestKarateChop1 < Minitest::Test
 
 def test_chop
   assert_equal(-1, chop(3, []))
@@ -28,4 +28,3 @@ def test_chop
 end
 
 end
-
