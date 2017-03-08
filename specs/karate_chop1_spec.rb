@@ -1,5 +1,6 @@
 require_relative('../karate_chop1')
 require('minitest/autorun')
+require('minitest/rg')
 
 class KarateChopTest < Minitest::Test
 
